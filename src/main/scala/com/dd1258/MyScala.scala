@@ -20,6 +20,7 @@ object MyScala {
     val wc=rdd.flatMap(x=>x.split(",")).map(x=>(x,1)).reduceByKey((x,y)=>(x+y))
     wc.foreach(x=>println(x))
     wc.saveAsTextFile("D:/out")
+
     sc.stop()
   }
 }
