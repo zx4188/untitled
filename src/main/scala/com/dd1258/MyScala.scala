@@ -5,10 +5,10 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 
 /**
-  * Author zhangxu
-  * Create in 15:24 2017/11/13
-  * Description 测试
-  */
+ * Author zhangxu
+ * Create in 15:24 2017/11/13
+ * Description 测试
+ */
 object MyScala {
   def main(args: Array[String]): Unit = {
     val log=Logger.getLogger("test")
