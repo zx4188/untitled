@@ -27,6 +27,5 @@ object SparkOPreateHbase {
     }
     )
     //val conn=HbaseUtils.getConn()
-
   }
 }

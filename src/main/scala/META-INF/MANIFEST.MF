@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: com.dd1258.MyScala
+Main-Class: cn.dingding.d1258.ReadHive
 
