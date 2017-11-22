@@ -46,6 +46,7 @@ object SaveDataToMysql {
             }
             stmt.executeBatch()
             //test github--branch--test
+             //down
             conn.commit
             conn.close()
           })
