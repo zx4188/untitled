@@ -45,6 +45,8 @@ object SaveDataToMysql {
               stmt.addBatch("insert into mykafka(word,count) values('" + data._1 + "','" + data._2 + "')")
             }
             stmt.executeBatch()
+           
+           
             conn.commit
             conn.close()
           })
